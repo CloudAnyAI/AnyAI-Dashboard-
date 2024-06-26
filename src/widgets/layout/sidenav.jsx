@@ -15,7 +15,7 @@ export function Sidenav({ brandImg, brandName, routes }) {
   const sidenavTypes = {
     dark: "bg-gradient-to-br from-gray-800 to-gray-900",
     white: "bg-gray-100 shadow-sm",
-    transparent: "bg-transparent",
+    transparent: "bg-transparent backdrop-blur-sm",
   };
 
   return (
